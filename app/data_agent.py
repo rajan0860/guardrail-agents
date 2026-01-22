@@ -9,9 +9,10 @@ from core.framework import (
     Runner,
     TResponseInputItem,
     input_guardrail,
-    WebSearchTool,
+    input_guardrail,
     FileSearchTool
 )
+from tools.web_search import WebSearchTool
 from tools.calculator import calculator_agent
 import config
 

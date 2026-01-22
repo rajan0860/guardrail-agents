@@ -182,13 +182,6 @@ class Runner:
 
 # --- Placeholders for tools user referenced ---
 
-class WebSearchTool(BaseTool):
-    name: str = "web_search"
-    description: str = "Search the web for information."
-    
-    def _run(self, query: str):
-        return f"[Mock Web Search Result for '{query}']: Data is an android from Star Trek."
-
 class FileSearchTool(BaseTool):
     name: str = "file_search"
     description: str = "Search local files."
